@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ribo centre - Portrait</title>
+  <meta name="description" content="Ribo centre -- Portrait">
+  <!-- <link rel="stylesheet" href="http://localhost:4000/css/main.css"> -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/portrait_test/">
+<link rel="shortcut icon" type ="image/x-icon" href="http://localhost:4000/images/favicon.ico">
+
+
+
+</head>
+
+
+  <body>
+
+    <div class="navbar-expand-lg navbar-dark" style='background-color: #333333; border-radius: 0; margin-bottom: 0; border: 0; height: 30px;' role="navigation">
+  <div class="container-fluid" style='height: 30px; max-width: 1000px;'>
+	  <ul class="nav navbar-nav navbar-right" style='height: 30px;'>
+		<li><a style='display: inline; padding: 15px 15px 5px 5px; line-height: 30px;' class="nav-link-0" href="http://www.gznl.org/">
+			<img src="http://localhost:4000/images/header/home.svg" style='height: 20px; width: auto; margin: 0;'>
+			Home</a></li>
+		<li><a style='display: inline; padding: 15px 15px 5px 5px; line-height: 30px;' class="nav-link-0" href="https://www.gznl.org/database/">
+			<img src="http://localhost:4000/images/header/database.svg" style='height: 20px; width: auto; margin: 0;'>
+			Database</a></li>
+		<li><a style='display: inline; padding: 15px 15px 5px 5px; line-height: 30px;' class="nav-link-0" href="https://www.gznl.org/research/">
+			<img src="http://localhost:4000/images/header/research.svg" style='height: 20px; width: auto; margin: 0;'>
+			Research</a></li>
+		<li><a style='display: inline; padding: 15px 15px 5px 5px; line-height: 30px;' class="nav-link-0" href="https://www.gznl.org/aboutus/">
+			<img src="http://localhost:4000/images/header/aboutus.svg" style='height: 20px; width: auto; margin: 0;'>
+			About us</a></li>
+		<li><a style='display: inline; padding: 15px 15px 5px 5px; line-height: 30px;' class="nav-link-0" href="https://gzlab.ac.cn/">
+			GZNL-RDC
+			<img src="http://localhost:4000/images/header/gznl2.svg" style='height: 20px; width: auto; margin: 0;'>
+			</a></li>
+	  </ul>
+  </div>
+</div>
+
+<!--
+  <div class="search-container">
+    <p class="search-text">Search for something:</p>
+    <div class="search-box">
+      <input type="text" placeholder="Search...">
+    </div>
+    <p class="additional-text">Additional text here...</p>
+  </div>
+
+  <div class="background-image">
+    <img src="http://localhost:4000/images/Picture-1.jpg" style='width: 100%; border-radius: 0; margin-top: 0; margin-bottom: 0;'>
+  </div>
+-->
+
+<!-- <div class="full-width-image">
+  <img src="http://localhost:4000/images/homePage/lung_dev_background.png" class="img-fluid" alt="Responsive image">
+</div>
+
+<style>
+	.full-width-image {
+	  background-color: #8E1B11; /* 设置背景颜色为黄色 */
+	  display: flex;
+	  justify-content: flex-end; /* 图片右对齐 */
+	}
+	
+	.full-width-image img {
+	  height: 300px;
+	  border-radius: 0;
+	  margin-top: 0;
+	  margin-bottom: 0;
+	}
+</style> -->
+	
+	
+<!-- 首页搜索区域 -->
+
+<div class="full-width-image">
+  <div class="search-box">
+    <div class="search">
+      <h2>GZNL's Respiratory Data Centre, GZNL-RDC</h2>
+      <div class="i"><img src="/images/header/logo1.svg">
+        <h1><b>Respiratory local immune data</b></h1>
+      </div>
+      <p>Respiratory Local Immune Cell Atlas</p>
+                  
+      <!-- Google 风格搜索框 -->
+      <div class="google-search-container">
+        <div class="search-input-container">
+          <div class="search-icon" id="search-button-header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#020e65" class="bi bi-search"
+              viewBox="0 0 16 16">
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg>
+          </div>
+          <input type="text" id="search-box-header" class="google-search-input" placeholder="Search Respiratory system..."
+            aria-label="Search keywords" autocomplete="off">
+        </div>
+      </div>
+
+      <p>Example:
+        <a class="tip" href="http://localhost:4000/database?search=Lung">Lung</a>&nbsp;&nbsp;
+        <!-- <a class="tip" href="http://localhost:4000/SELEX/">SELEX</a>&nbsp;&nbsp; -->
+        <a class="tip" href="http://localhost:4000/database?search=Airway" target="_blank">Airway</a>&nbsp;&nbsp;
+        <a class="tip" href="http://localhost:4000/database?search=Trachea">Trachea</a>&nbsp;&nbsp;
+      </p>
+    </div>
+  </div>
+</div>
+
+  
+  <style>
+ .full-width-image {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    background: url(http://localhost:4000/images/homePage/homepicture2.jpeg) no-repeat;
+
+    background-size: cover; /* 使用 cover 让背景图片填充整个容器 */
+    background-position: center; /* 让背景图片在容器中水平和垂直居中 */
+}
+
+.full-width-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center
+}
+  /* .full-width-image {
+	  width: 100%;
+	  height: 350px;
+	  overflow: hidden;
+	  border-radius: 0;
+	  margin-top: 0;
+	  margin-bottom: 0;
+	  position: relative;
+	  background: url(http://localhost:4000/images/homePage/background3.png) no-repeat;
+	  background-size: 100% 100%
+  }
+  
+  .full-width-image img {
+	  width: 100%;
+	  height: 100%;
+	  object-fit: cover;
+	  object-position: center
+  } */
+  
+  .search-box {
+	  height: 100%;
+	  width: 1400px;
+	  margin: 0 auto;
+	  display: flex;
+	  align-items: center;
+  }
+  
+  .search {
+	  padding-top: 0px;
+	  padding-bottom: 0px; 
+	  padding-left: 20px; 
+	  padding-right: 20px;
+	  background: #fff;
+	  position: absolute;
+  }
+ 
+  .search h1 {
+    font-size: 20px;
+  } 
+ 
+  .search h2 {
+	  font-size: 20px
+  }
+  
+  .search .i {
+	  display: flex;
+	  align-items: center
+  }
+  
+  .search .i img {
+	  width: 70px;
+	  height: 50px;
+	  object-fit: contain
+  }
+  
+  .search .i h1 {
+	  font-size: 28px;
+	  font-weight: 700;
+	  margin-left: 10px
+  }
+  
+  .search .tip {
+	  font-size: 14px;
+	  margin-top: 10px
+  }
+  
+  /* Google风格搜索框 */
+  .google-search-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    z-index: 1015; /* 适当的z-index */
+  }
+  
+  .searchInput {
+	  margin-top: 10px;
+	  width: 450px;
+	  height: 32px;
+	  display: flex
+  }
+ 
+  .search-input-container {
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    height: 44px;
+  }
+
+  .search-input-container:hover,
+  .search-input-container:focus-within {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.38);
+    border-color: rgba(223, 225, 229, 0);
+  }
+
+  .search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 14px;
+    cursor: pointer;
+  }
+
+  .google-search-input {
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+    width: 100%;
+    padding: 0 16px 0 0;
+    margin-bottom: 0;
+  }
+
+  /* 搜索结果样式 */
+  .search-results-wrapper {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 1020; /* 确保高于导航菜单 */
+    margin-top: 5px;
+  }
+
+  .search-results-container {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+    z-index: 1020; /* 确保高于导航菜单 */
+    margin-top: 5px;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+
+  .search-result-item {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    transition: background-color 0.2s ease;
+  }
+
+  .search-result-item:last-child {
+    border-bottom: none;
+  }
+
+  .search-result-item:hover {
+    background-color: #f8f9fa;
+  }
+
+  .search-result-item h4 {
+    margin: 0 0 5px 0;
+    color: #1a73e8;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .search-result-item h4 a {
+    color: #520049;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .search-result-item h4 a:hover {
+    color: #3d0037;
+    text-decoration: underline;
+  }
+
+  .search-result-item .category {
+    color: #70757a;
+    font-size: 12px;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+
+  .search-result-item .content-preview {
+    margin: 5px 0 8px 0;
+    color: #4d5156;
+    font-size: 14px;
+    line-height: 1.58;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .search-result-item .tags {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .search-result-item .date {
+    font-size: 12px;
+    color: #999;
+  }
+
+  .search-result-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #70757a;
+  }
+
+  .keyword-highlight {
+    background-color: #ffeaa7;
+    font-weight: bold;
+    padding: 0 2px;
+  }
+
+  .no-results-message {
+    padding: 20px;
+    text-align: center;
+    color: #4d5156;
+    font-size: 16px;
+  
+    }
+    
+  /* 分页样式 */
+  .search-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    border-top: 1px solid #eee;
+    background: #f8f9fa;
+    gap: 8px;
+  }
+
+  .page-btn {
+    margin: 0;
+    padding: 8px 12px;
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    color: #520049;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+  }
+
+  .page-btn:hover {
+    background: #e8f0fe;
+    border-color: #520049;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(82, 0, 73, 0.2);
+  }
+
+  .page-btn.active {
+    background: #520049;
+    color: white;
+    border-color: #520049;
+    box-shadow: 0 2px 8px rgba(82, 0, 73, 0.3);
+  }
+
+  .page-btn:active {
+    transform: translateY(0);
+  }
+
+  /* 搜索统计样式 */
+  .search-stats {
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #6c757d;
+    background: #f8f9fa;
+    border-top: 1px solid #eee;
+    font-style: italic;
+  }
+
+  /* 导航栏样式 */
+  .nav-link-1 {
+    font-size: 20px !important;
+    color: #ffffff !important;
+    text-decoration: none;
+    padding: 15px 15px 5px 5px;
+    line-height: 30px;
+    transition: color 0.3s ease;
+  }
+
+  .nav-link-1:hover {
+    color: #520049 !important;
+    text-decoration: none;
+  }
+
+  /* 下拉菜单样式 */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-toggle {
+    cursor: pointer;
+  }
+
+  .dropdown-toggle:focus {
+    outline: none;
+  }
+  
+  /* 修复焦点状态问题 */
+  .dropdown-toggle:not(:hover):not(.open) {
+    color: #ffffff !important;
+    background-color: transparent !important;
+  }
+  
+  /* 确保按钮鼠标移走时会恢复原状 */
+  .nav-link-1:not(:hover):not(.open) {
+    color: #ffffff !important;
+    background-color: transparent !important;
+  }
+  
+  .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 5px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    transition: transform 0.3s ease;
+  }
+  
+  .dropdown.open .caret {
+    transform: rotate(180deg);
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 8px 0;
+    margin: 2px 0 0;
+    font-size: 16px;
+    text-align: left;
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 6px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+  }
+  
+  .dropdown.open .dropdown-menu {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .dropdown-menu > li > a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+        }
+
+  .dropdown-menu > li > a:hover {
+    color: #520049;
+    background-color: #f5f5f5;
+    text-decoration: none;
+  }
+
+  /* 下拉菜单状态控制 */
+  .dropdown.open > .nav-link-1 {
+    color: #520049 !important;
+    text-decoration: none;
+  }
+  
+  .dropdown:not(.open) > .nav-link-1:not(:hover) {
+    color: #ffffff !important;
+  }
+
+  /* 修复导航栏底部间距，否则这是一个默认的逻辑22px */
+  .navbar {
+    margin-bottom: 0 !important;
+}
+
+  /* Logo样式 */
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-brand img {
+    transition: all 0.3s ease;
+  }
+  
+  /* 响应式设计 */
+  @media (max-width: 1200px) {
+    .navbar-brand img {
+      max-height: 40px;
+    }
+    
+    .nav-link-1 {
+      font-size: 16px !important;
+      padding: 10px 8px !important;
+    }
+
+    .dropdown-menu {
+      position: static;
+      display: none;
+      float: none;
+      width: auto;
+      margin-top: 0;
+      background-color: rgba(0, 0, 0, 0.1);
+      border: 0;
+      box-shadow: none;
+      border-radius: 0;
+    }
+    
+    .dropdown.open .dropdown-menu {
+      display: block;
+      opacity: 1;
+      transform: none;
+    }
+    
+    .dropdown-menu > li > a {
+      padding: 8px 20px;
+      color: #ffffff;
+    }
+    
+    .dropdown-menu > li > a:hover {
+      color: #520049;
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    /* 外部导航栏响应式 */
+    .navbar-toggler.external-toggler {
+      display: block !important;
+      z-index: 1001;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      position: absolute;
+      right: 10px;
+      top: 3px;
+    }
+    
+    /* 这是外部导航栏折叠按钮的样式 */
+    .external-nav {
+      display: none;
+      position: absolute;
+      top: 30px;
+      right: 0;
+      background-color: #333333;
+      z-index: 10000;
+      width: 200px;
+      height: auto !important;
+      padding: 10px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    
+    .external-nav.show {
+      display: block;
+      position: absolute;
+      max-height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+    
+    .external-nav li {
+      display: block;
+      width: 100%;
+    }
+    
+    .external-nav li a {
+      display: block !important;
+      padding: 8px 15px !important;
+      line-height: 20px !important;
+    }
+    
+    /* 内部导航栏响应式 */
+    .navbar-toggle.internal-toggler {
+      display: block !important;
+      margin-right: 0;
+      margin-top: 0;
+      border: 1px solid rgba(255,255,255,0.5);
+      padding: 7px 10px;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      z-index: 1001;
+    }
+    
+    .navbar-toggle.internal-toggler .icon-bar {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background-color: #fff;
+      margin: 4px 0;
+    }
+    
+    #navbar-collapse-1 {
+      position: absolute;
+      top: 50px;
+      left: 0;
+      right: 0;
+      background-color: #520049;
+      z-index: 10000;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+      pointer-events: none; /* 禁用交互 */
+      visibility: hidden; /* 完全隐藏元素 */
+    }
+    
+    #navbar-collapse-1.show {
+      max-height: 500px;
+      pointer-events: auto; /* 恢复交互 */
+      visibility: visible; /* 显示元素 */
+    }
+    
+    #navbar-collapse-1 ul.navbar-nav {
+      margin: 0;
+      padding: 10px 0;
+      width: 100%;
+    }
+    
+    #navbar-collapse-1 ul.navbar-nav > li {
+      display: block;
+      float: none;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar-brand img {
+      max-height: 35px;
+    }
+    
+    .nav-link-1 {
+      font-size: 14px !important;
+      padding: 8px 6px !important;
+    }
+  }
+  </style>
+
+
+  <!-- JavaScript -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const searchInput = document.getElementById('search-box-header');
+  const searchButton = document.getElementById('search-button-header');
+
+  // 搜索按钮点击事件
+  function handleSearchClick() {
+    const query = searchInput.value.trim();
+    if (query) {
+      // 跳转到数据库页面并传递搜索词
+      window.location.href = `http://localhost:4000/database?search=${encodeURIComponent(query)}`;
+    }
+  }
+
+  // 绑定事件
+  searchButton.addEventListener('click', handleSearchClick);
+  
+  // 回车键事件
+  searchInput.addEventListener('keyup', function(e) {
+    if (e.key === 'Enter') {
+      handleSearchClick();
+    }
+  });
+});
+</script>
+
+
+
+<div class="navbar navbar-expand-lg navbar-dark bg-primary" style='border-radius: 0; border: 0;' role="navigation">
+
+  <div class="container-fluid" style='width: 1400px; font-size: 20px;'>
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+	
+    <a class="navbar-brand" href="http://localhost:4000/">
+		
+		<img class="navbar-brand" src="http://localhost:4000/images/header/logo2.svg" style='height:50px;margin-top:-14px;margin-bottom:0;padding:2px 2px;border-radius: 0;' alt="logo">
+		<!--b style='font-size: 32px; color: #eeeeee;'>RespiratoryCellAtlas</b-->
+	</a>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar-collapse-1">
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a class="nav-link-1" href="http://localhost:4000/">Home</a></li>
+		<!-- <li><a class="nav-link-1" href="http://localhost:4000/dataviewer">Data Viewer</a></li> -->
+		<!-- <li class="dropdown">
+			<a href="#" class="dropdown-toggle nav-link-1" data-toggle="dropdown">
+				Data Viewer <span class="caret"></span>
+			</a> -->
+			<!-- <ul class="dropdown-menu">
+				<li><a class="nav-link-1" style="color: #020e65;" href="http://localhost:4000/dataviewer_adult">Adult brain</a></li> -->
+				<!-- <li><a class="nav-link-1" style="color: #020e65;" href="http://localhost:4000/dataviewer_fetal">Fetal brain</a></li>
+				<li><a class="nav-link-1" style="color: #020e65;" href="http://localhost:4000/dataviewer_tumour">Tumour</a></li>
+				<li><a class="nav-link-1" style="color: #020e65;" href="http://localhost:4000/dataviewer_organoid">Organoid</a></li>
+				<li><a class="nav-link-1" style="color: #020e65;" href="http://localhost:4000/dataviewer_mouse">Mouse brain</a></li> -->
+			<!-- </ul> -->
+		<li><a class="nav-link-1" href="http://localhost:4000/dataviewer_hdlc">Data Viewer</a></li>
+		<li><a class="nav-link-1" href="http://localhost:4000/portrait">Portrait</a></li>
+		<li class="dropdown">
+			<a href="#" class="dropdown-toggle nav-link-1" data-toggle="dropdown">
+				Gene <span class="caret"></span>
+			</a>
+			<ul class="dropdown-menu">
+				<li><a class="nav-link-1" style="color: #020e65;" href="http://localhost:4000/markers">Markers</a></li>
+				<li><a class="nav-link-1" style="color: #020e65;" href="http://localhost:4000/deg">DEG</a></li>
+				<!-- <li><a class="nav-link-1" style="color: #020e65;" href="http://localhost:4000/celltypedeg">CellType DEG</a></li> -->
+			</ul>
+		<!-- <li><a class="nav-link-1" href="http://localhost:4000/exploration"><b>Exploration</b></a></li> -->
+		<li><a class="nav-link-1" href="http://localhost:4000/database">Dataset</a></li>
+		<li><a class="nav-link-1" href="http://localhost:4000/Helps">Help</a></li>
+		<li><a class="nav-link-1" href="http://localhost:4000/contact">Contact</a></li>
+	  </ul>
+	</div>
+  </div>
+</div>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="picid" class="col-sm-12">
+  <div class="image-gallery">
+  <div class="main-image">
+    <p><img src="../assets/lung/全景图.png" alt="Main Image" id="mainImage" /></p>
+  </div>
+  <div class="thumbnails">
+    <div class="thumbnail" onclick="highlightImage(1)">
+      <p><img src="../assets/lung/nostrils.png" alt="Thumbnail 1" /></p>
+      <div class="caption">
+        <p>Thumbnail 1&lt;/div&gt;</p>
+      </div>
+      <div class="thumbnail" onclick="highlightImage(2)">
+        <p>&lt;img src=”../assets/lung/lung.png”” alt=”Thumbnail 2”&gt;</p>
+        <div class="caption">
+          <p>Thumbnail 2&lt;/div&gt;</p>
+        </div>
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;!-- 更多缩略图 --&gt;
+</code></pre></div>        </div>
+      </div>
+    </div>
+
+    <style>
+.image-gallery {
+display: flex;
+}
+.main-image img {
+max-width: 100%;
+}
+.thumbnail {
+cursor: pointer;
+}
+.thumbnail img {
+width: 100px; /* 小图片的宽度 */
+height: auto; /* 自动调整高度 */
+}
+.thumbnail .caption {
+display: none; /* 注释默认隐藏 */
+}
+.thumbnail.active img {
+opacity: 1; /* 激活的小图片不透明 */
+}
+.thumbnail:hover .caption {
+display: block; /* 鼠标悬停时显示注释 */
+}
+</style>
+
+    <script>
+function highlightImage(index) {
+const thumbnails = document.querySelectorAll('.thumbnail');
+thumbnails.forEach(thumbnail => thumbnail.classList.remove('active'));
+thumbnails[index - 1].classList.add('active');
+const mainImage = document.getElementById('mainImage');
+mainImage.src = `large_image${index}.jpg`;
+}
+</script>
+
+    <p>linkTo(a) {const t = <code class="language-plaintext highlighter-rouge">../cirro/index.html#q={"dataset":"scVI","embeddings":[{"name":"X_umap","dimensions":2}],"layers":[],"activeFeature":{"name":"organ","type":"obsCat","embeddingKey":"organ_X_umap"},"q":[{"id":"organ","type":"obsCat"}],"datasetFilter":{"organ":{"value":["${a}"],"operation":"in"}},"embeddingLabels":["celltype"]}</code>; window.location.href = t;}</p>
+
+    <p>function linkTo(a) {const targetUrl = <code class="language-plaintext highlighter-rouge">../cirro/index.html#q={"dataset":"scVI","embeddings":[{"name":"X_umap","dimensions":2}],"layers":[],"activeFeature":{"name":"organ","type":"obsCat","embeddingKey":"organ_X_umap"},"q":[{"id":"organ","type":"obsCat"}],"datasetFilter":{"organ":{"value":["${a}"],"operation":"in"}},"embeddingLabels":["celltype"]}</code>;const iframe = document.querySelector(‘.rounded-iframe’);iframe.src = targetUrl;}</p>
+  </div>
+</div>
+
+</div>
+
+      </div>
+    </div>
+
+    <br/>
+<div id="footer" class="panel">
+  <div class="panel-footer" style='background-color: #333333; color: #eeeeee;'>
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-4">
+			
+		  <p>&copy 2024 GZNL-RDC. </p>
+		  <p>We are part of the <a href="https://gzlab.ac.cn" style="color:#020e65">Guangzhou Laboratory</a> and <a href="http://www.rnacentre.org/" style="color:#020e65">RNAcentre</a>.</p>
+		  <p>Site made with <a href="https://jekyllrb.com" style="color:#020e65">Jekyll</a>;  <a href="http://localhost:4000/aboutwebsite.html" style="color:#020e65">copy and  modify it for your own research group.</a></p>
+		  <p>  </p>
+		  <p>  </p>
+		</div>
+		
+		<div class="col-sm-4">
+		  Funding:<br />
+          - <a href="https://gzlab.ac.cn" style="color:#020e65">R&D Programs of Guangzhou Laboratory</a><br />
+          - <a href="http://www.most.gov.cn/" style="color:#020e65">MOST IT+BT projects</a> <br />
+          - <a href="https://www.nsfc.gov.cn/" style="color:#020e65">NSFC</a> <br />	 
+		  <br>
+		  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" style="color:#020e65"></script>
+		  <!--<span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;<span id="busuanzi_container_site_uv"><strong>: <a href=""><span id="busuanzi_value_site_uv"></span></strong></a> </span> &nbsp;&nbsp;
+		  !--><span class="glyphicon glyphicon-eye-open"></span>&nbsp;&nbsp;<span id="busuanzi_container_site_pv">: <a href="" style="color:#020e65"><span id="busuanzi_value_site_pv"></span></a> </span> 
+		</div>
+		
+		<div class="col-sm-4">
+		  Contact:<br />
+		  Building B2, Guangzhou National Laboratory<br />
+		  96 Xingdao South Road, Guangzhou International Bio Island, <br />
+		  Haizhu District, Guangzhou, Guangdong, China.<br />
+          (<a href="https://goo.gl/maps/hDLr6siEAS2Eaypt8" style="color:#020e65">Maps</a>)
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://localhost:4000/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+</html>
