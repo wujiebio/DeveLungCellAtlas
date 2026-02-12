@@ -19,6 +19,7 @@ include:
 
 exclude:
   -_pages/database_old.md
+  -_pages/datasets_view.md
 
 sass:
   sass_dir: _sass
