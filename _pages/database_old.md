@@ -130,7 +130,7 @@ permalink: /databasse/
 <!--   </style> -->
 </head> 
 
-<!-- <body onload="showSheet('sheet1')"> -->
+<body onload="showSheet('sheet1')">
 <!-- 
 <p class="header_box" >Detail information</p>
 
@@ -3550,3 +3550,7 @@ function downloadExcel() {
     cursor: pointer; /* Add a pointer cursor to indicate sortability */
   }
 </style>
+<!-- Content of _pages/database_old.md with missing closing HTML tags added -->
+<!-- Example closing tags added here -->
+</body>
+</html>
