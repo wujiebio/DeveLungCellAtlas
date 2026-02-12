@@ -17,6 +17,9 @@ include:
   - .htaccess
   - _pages
 
+exclude:
+  -_pages/database_old.md
+
 sass:
   sass_dir: _sass
 
